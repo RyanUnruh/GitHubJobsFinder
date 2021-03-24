@@ -14,7 +14,7 @@ export default function SearchForm({ params, onParamChange }) {
           />
         </Form.Group>
         <Form.Group as={Col}>
-          <Form.Label>location</Form.Label>
+          <Form.Label>Location</Form.Label>
           <Form.Control
             onChange={onParamChange}
             value={params.location}
@@ -27,7 +27,7 @@ export default function SearchForm({ params, onParamChange }) {
             onChange={onParamChange}
             value={params.full_time}
             id="full-time"
-            label="Only Full Time"
+            label="Full Time"
             type="checkbox"
             className="mb-2"
           />
